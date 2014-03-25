@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ratingInfo>
+  <ratings media='movie'>
+    <ratingSource prefix='mpaa'>
+      <rating itunes-value='000' description='NR'>NR</rating>
+      <rating itunes-value='100' description='G'>G</rating>
+      <rating itunes-value='200' description='PG'>PG</rating>
+      <rating itunes-value='300' description='PG-13'>PG-13</rating>
+      <rating itunes-value='400' description='R'>R</rating>
+      <rating itunes-value='500' description='NC-17'>NC-17</rating>
+      <rating itunes-value='600' description='Unrated'>Unrated</rating>
+    </ratingSource>
+    <ratingSource prefix='de-movie'>
+      <rating itunes-value='075' description='Ab 0 Jahren'>Ab 0 Jahren</rating>
+      <rating itunes-value='100' description='Ab 6 Jahren'>Ab 6 Jahren</rating>
+      <rating itunes-value='200' description='Ab 12 Jahren'>Ab 12 Jahren</rating>
+      <rating itunes-value='500' description='Ab 16 Jahren'>Ab 16 Jahren</rating>
+      <rating itunes-value='600' description='Ab 18 Jahren'>Ab 18 Jahren</rating>
+    </ratingSource>
+  </ratings>
+  <ratings media='TV'>
+    <ratingSource prefix='us-tv'>
+      <rating itunes-value='100' description='TV-Y'>TV-Y</rating>
+      <rating itunes-value='200' description='TV-Y7'>TV-Y7</rating>
+      <rating itunes-value='300' description='TV-G'>TV-G</rating>
+      <rating itunes-value='400' description='TV-PG'>TV-PG</rating>
+      <rating itunes-value='500' description='TV-14'>TV-14</rating>
+      <rating itunes-value='600' description='TV-MA'>TV-MA</rating>
+      <rating itunes-value='600' description='Unrated'>Unrated</rating>
+    </ratingSource>
+    <ratingSource prefix='de-tv'>
+      <rating itunes-value='075' description='Ab 0 Jahren'>Ab 0 Jahren</rating>
+      <rating itunes-value='100' description='Ab 6 Jahren'>Ab 6 Jahren</rating>
+      <rating itunes-value='200' description='Ab 12 Jahren'>Ab 12 Jahren</rating>
+      <rating itunes-value='500' description='Ab 16 Jahren'>Ab 16 Jahren</rating>
+      <rating itunes-value='600' description='Ab 18 Jahren'>Ab 18 Jahren</rating>
+    </ratingSource>
+  </ratings>
+</ratingInfo>

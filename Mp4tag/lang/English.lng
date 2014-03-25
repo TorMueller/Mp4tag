@@ -1,0 +1,197 @@
+; This file is a language file - in this case English
+
+[General]
+Language=English
+
+[Global:Message]
+error=ERROR
+warning=WARNING
+0001=Cannot start Setup. Maybe files was not downloaded properly.
+0002=Cannot download current version information from the internet.
+0003=Cannot download release notes from the internet.
+
+[FrmMain:Status]
+default=Ready
+read=Reading tags from file...
+write=Writing tags to file...
+noFile=No file loaded
+
+[FrmMain:Label]
+itmFile=&File
+itmOpen=&Open...
+itmOpenRecent=Open Recent Files
+itmSave=&Save
+itmClose=&Close
+itmImport=&Import...
+itmExport=&Export...
+itmExit=E&xit
+itmEdit=&Edit
+itmCut=&Cut
+itmCopy=C&opy
+itmPaste=&Paste
+itmTagSources=Tag &Sources
+itmTools=&Tools
+itmSettings=Settings
+itmHelp=&Help
+itmAbout=&About
+chkMediaType=Media Type
+chkTitle=Title
+chkArtist=Artist
+chkReleaseDate=Release Date
+chkRatingInfo=Rating Info
+chkGenre=Genre
+grpSize=Size
+btnPictureSelect=Select File...
+btnPictureBlank=None
+btnPictureKeep=Keep
+tabInfo=Info
+chkAlbum=Album
+chkAlbumArtist=Album Artist
+chkPurchaseDate=Purchase Date
+grpShortDescription=Short Description
+rdoShortDescriptionBlank=Blank
+rdoShortDescriptionChange=Change
+rdoShortDescriptionKeep=Keep
+grpLongDescription=Long Description
+rdoLongDescriptionBlank=Blank
+rdoLongDescriptionChange=Change
+rdoLongDescriptionKeep=Keep
+tabVideo=Video
+grpGeneralVideoTags=General Video Tags
+chkHDVideo=HD
+chkCast=Cast
+chkDirectors=Directors
+chkProducers=Producers
+chkScreenwriters=Screenwriters
+chkCopyright=Copyright
+chkStudio=Studio
+grpTVTags=TV Tags
+chkTVShow=TV Show
+chkEpisodeId=Episode ID
+chkSeason=Season
+chkEpisode=Episode
+chkTVNetwork=TV Network
+tabPodcast=Podcasting
+chkPodcast=Podcast
+chkFeedUrl=Feed URL
+chkEpisodeUrl=Episode URL
+chkCategory=Category
+chkKeywords=Keywords
+chkContentRating=Content Rating
+tabOther=Other
+chkTrackNumber=Track #
+lblTrackOf=of
+chkDiscNumber=Disc #
+lblDiscOf=of
+chkGrouping=Grouping
+chkEncodingTool=Encoding Tool
+chkEncodedBy=Encoded By
+chkComment=Comment
+chkGapless=Gapless
+chkCompilation=Compilation
+lblCatalogId=Catalog ID
+tabSorting=Sorting
+grpSort=Sort
+grpTags=Tags
+lblTagsAlbum=Album
+lblTagsAlbumArtist=Album Artist
+lblTagsArtist=Artist
+lblTagsName=Name
+lblTagsTVShow=TV Show
+tabChapters=Chapters
+rdoChaptersBlank=Blank
+rdoChaptersChange=Change
+rdoChaptersKeep=Keep
+colChapter=Chapter
+colDuration=Duration
+colNumber=No.
+colStart=From Start
+colTitle=Title
+
+[FrmMain:Tooltip]
+cmbMediaType=The type of video
+cmbTitle=The title of the movie or TV episode
+cmbArtist="The cast members of the movie= or name of the TV series"
+cmbReleaseDate=The release date for the movie or TV episode
+cmbRatingInfo=The MPAA rating for the movie or TV show
+cmbGenre=The style of movie or TV show
+picArtwork=The artwork associated with the movie or TV show.
+cmbAlbum=The album that the video is a part of
+cmbAlbumArtist=The name of the artist who recorded the album
+cmbPurchaseDate=The date you purchased the movie or TV show
+txtShortDescription=A short description of the move in 256 characters or less.
+txtLongDescription="A detailed description of the movie. This is displayed in the iTunes ""i"" popup window and on Apple TV."
+cmbCast=The cast of the movie or TV Show
+cmbDirectors=The movie's director
+cmbProducers=The movie's producer
+cmbScreenwriters=The writer who created the movie or TV show
+cmbCopyright=Copyright information associated with the movie or TV show
+cmbTVShow=The name of the TV series
+cmbEpisodeId=A unique ID for this particular episode of a TV show
+cmbSeason=A number indicating the season of the show
+cmbEpisode=A number indicating the episode
+cmbTVNetwork=The network which carried the TV show
+cmbContentRating=Denotes whether the content is offensive or not
+cmbTrackNumber=Episode number # out of # in a TV season
+cmbTotalTracks=Totol number of episodes in a TV season
+cmbSortAlbum=The album to sort by in iTunes
+cmbSortAlbumArtist=The album artist to sort by in iTunes
+cmbSortArtist=The artist name to sort by in iTunes
+cmbSortName=The title to sort by in iTunes
+cmbSortTVShow=The show name to sort by in iTunes
+dgvChapters=The titles of the scene selections from the DVD
+
+[FrmMain:Message]
+0001=File doesn't seem to be a valid MP4 file.
+0002=Rating information cannot be written to file. It seems the data  is not in the correct format.
+0003=Unknown error occured while saving file.
+0004=Rating information cannot be read from file. It seems the data is not in the correct format or the rating information file is incomplete.
+
+[FrmMediaType:Label]
+grpMediaType=Media Type
+btnOK=OK
+btnCancel=Cancel
+
+[FrmUpdate:Label]
+grpUpdateInfo=Update Information
+lblUpdateInfo=A newer version has been found:
+lblReleaseNotes=Release Notes:
+btnInstall=Install
+btnCancel=Cancel
+
+[FrmUpdate:Text]
+installed=Installed
+
+[FrmUpdateDownload:Label]
+grpProgress=Progress
+
+[FrmUpdateDownload:Text]
+downloaded=Downloaded
+of=of
+complete=Complete
+
+[FrmUpdateDownload:Message]
+0001=Error while dowloading update file.
+
+[FrmSettings:Label]
+tabGeneral=General
+grpAutoUpdate=Automatic Update Check
+chkAutoUpdate=Check for updates on startup
+chkAutoUpdateError=Show error message if version file cannot be found
+lblLoadFile=All loaded files are:
+tabProxy=Proxy
+grpProxy=Proxy Settings
+rdoNoProxy=No proxy
+rdoSystemProxy=Use system proxy settings
+rdoManualProxy=Manual proxy configuration
+chkAllProtocols=Use this proxy for all protocols
+grpProxyAuthentication=Proxy Authentication
+rdoWindowsLogin=Use Windows login
+rdoManualLogin=Manual login configuration
+lblUsername=Username:
+lblPassword=Password:
+btnSave=Save
+btnCancel=Cancel
+
+[FrmSettings:Text]
+Form=Settings
